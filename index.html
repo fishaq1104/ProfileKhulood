@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Kholoud Aqeel — software engineering student, developer, and problem solver." />
+    <title>MyProfile // Kholoud Aqeel</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="intro-screen" aria-hidden="true">
+      <div class="intro-logo">MY<span>PROFILE</span></div>
+      <div class="press-start">PRESS START <span class="blink">_</span></div>
+    </div>
+    <div class="cursor-pixel" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="MyProfile home"><span class="brand-mark">✦</span> MYPROFILE</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">MENU <span>☰</span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#about">ABOUT</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#quests">QUESTS</a>
+        <a href="#journey">JOURNEY</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-grid" aria-labelledby="hero-title">
+        <div class="sky-orbit orbit-one"></div>
+        <div class="sky-orbit orbit-two"></div>
+        <span class="star star-a">✦</span><span class="star star-b">✧</span><span class="star star-c">✦</span>
+        <span class="cloud cloud-a"></span><span class="cloud cloud-b"></span>
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="status-dot"></span> ONLINE · CURRENTLY LEVELING UP...</div>
+          <p class="welcome-line"><span class="typing">WELCOME, PLAYER_01</span></p>
+          <h1 id="hero-title">Hey, I'm<br /><span>Kholoud Aqeel!</span></h1>
+          <p class="hero-subtitle">Software Engineering Student <b>|</b> Developer <b>|</b> Solution to problems like no one else can</p>
+          <p class="hero-intro">Welcome to my little corner of the internet! I'm a Software Engineering student who enjoys exploring technology, building things, solving problems and turning ideas into reality. I'm still learning, experimenting and discovering new things along the way.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#quests">EXPLORE MY WORLD <span>↗</span></a>
+            <a class="btn btn-ghost" href="#quests">VIEW MY PROJECTS <span>→</span></a>
+          </div>
+          <div class="scroll-hint"><span class="mouse-icon"></span> SCROLL TO START THE ADVENTURE</div>
+        </div>
+        <div class="hero-character-wrap reveal">
+          <div class="character-label">PLAYER PROFILE <span>LV. 03</span></div>
+          <div class="character-stage">
+            <div class="halo"></div>
+            <div class="pixel-character" role="img" aria-label="Pixel-art hijabi character thinking with a lightbulb">
+              <div class="spark spark-one">✦</div><div class="spark spark-two">✧</div>
+              <div class="thought-bubble">?</div>
+              <div class="bulb"><i></i></div>
+              <div class="char-head"><div class="hijab"></div><div class="face"><i class="eye left"></i><i class="eye right"></i><i class="smile"></i></div></div>
+              <div class="char-body"><div class="scarf"></div><div class="laptop">_ _<br /><span>▰</span></div></div>
+              <div class="char-arm left-arm"></div><div class="char-arm right-arm"></div>
+              <div class="char-leg left-leg"></div><div class="char-leg right-leg"></div>
+            </div>
+            <div class="platform"><span></span><span></span><span></span><span></span></div>
+          </div>
+          <div class="character-caption">THINK · BUILD · SOLVE</div>
+        </div>
+      </section>
+
+      <section id="about" class="about section-shell reveal">
+        <div class="section-heading"><span class="section-index">01</span><div><p class="eyebrow">THE PLAYER BEHIND THE SCREEN</p><h2>About <em>Me</em></h2></div></div>
+        <div class="about-layout">
+          <div class="profile-terminal">
+            <div class="terminal-top"><span></span><span></span><span></span><b>player_profile.exe</b></div>
+            <div class="terminal-body">
+              <p><span class="prompt">›</span> loading player data...</p>
+              <p><span class="prompt">›</span> hey! I'm Kholoud — a Software Engineering student at Al Ain University.</p>
+              <p><span class="prompt">›</span> I like understanding how things work, learning by making, and turning tricky problems into something I can solve.</p>
+              <p><span class="prompt">›</span> when I'm not coding, I'm usually exploring a new technology or sketching the next idea.</p>
+              <p class="terminal-cursor">▌</p>
+            </div>
+          </div>
+          <div class="stats-board">
+            <div class="stat"><span class="stat-icon">⌂</span><div><small>BASE CAMP</small><strong>Al Ain University</strong><span>Software Engineering</span></div></div>
+            <div class="stat"><span class="stat-icon">◎</span><div><small>MAIN QUEST</small><strong>Build + learn</strong><span>Practical projects</span></div></div>
+            <div class="stat"><span class="stat-icon">✦</span><div><small>POWER-UP</small><strong>Problem solving</strong><span>Curious by default</span></div></div>
+            <div class="stat"><span class="stat-icon">♡</span><div><small>HP / ENERGY</small><strong>Creativity</strong><span>Always recharging</span></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills section-shell reveal">
+        <div class="section-heading"><span class="section-index">02</span><div><p class="eyebrow">MY INVENTORY</p><h2>Skills & <em>Power-ups</em></h2></div></div>
+        <div class="skill-tabs" role="tablist" aria-label="Skill categories"><button class="skill-tab active" data-tab="tech" role="tab" aria-selected="true">TECH LOADOUT</button><button class="skill-tab" data-tab="soft" role="tab" aria-selected="false">PLAYER TRAITS</button></div>
+        <div id="tech" class="skill-panel active" role="tabpanel">
+          <div class="skill-tree-line"></div>
+          <div class="skill-grid">
+            <div class="skill-node featured"><span class="node-icon">&lt;/&gt;</span><strong>CODE CORE</strong><small>C · C++ · Java</small></div>
+            <div class="skill-node"><span class="node-icon">◈</span><strong>WEB CRAFT</strong><small>HTML · CSS · JavaScript</small></div>
+            <div class="skill-node"><span class="node-icon">⬡</span><strong>BUILD TOOLS</strong><small>Node.js · Git · Docker</small></div>
+            <div class="skill-node"><span class="node-icon">⚙</span><strong>MAKER MODE</strong><small>Arduino · Circuits</small></div>
+            <div class="skill-node"><span class="node-icon">✎</span><strong>PIXEL POLISH</strong><small>UI/UX fundamentals</small></div>
+          </div>
+        </div>
+        <div id="soft" class="skill-panel" role="tabpanel" hidden>
+          <div class="trait-cloud"><span>PROBLEM-SOLVING</span><span>COMMUNICATION</span><span>TEAMWORK</span><span>CREATIVITY</span><span>ADAPTABILITY</span><span>TIME MANAGEMENT</span><span>PRESENTATION</span></div>
+        </div>
+      </section>
+
+      <section id="quests" class="quests section-shell reveal">
+        <div class="section-heading"><span class="section-index">03</span><div><p class="eyebrow">THE MAIN QUEST</p><h2>Selected <em>Projects</em></h2></div><p class="heading-note">A few worlds I've helped bring to life.</p></div>
+        <div class="quest-list">
+          <article class="quest quest-hollowbright">
+            <div class="quest-art art-hollowbright"><div class="moon"></div><div class="mountain"></div><div class="pixel-tree"></div><div class="art-label">HB</div></div>
+            <div class="quest-content"><div class="quest-meta"><span>QUEST 01</span><span class="quest-status">CAPSTONE GAME</span></div><h3>Hollowbright</h3><p>An atmospheric Unity capstone game project — a world built to be explored, shaped by mood, mystery and the details hiding in the dark.</p><div class="tag-row"><span>UNITY</span><span>GAME DEV</span><span>CAPSTONE</span></div><span class="quest-learn">✦ LEARNING: GAME WORLDS & INTERACTION</span></div>
+          </article>
+          <article class="quest quest-arduino">
+            <div class="quest-art art-arduino"><div class="circuit c1"></div><div class="circuit c2"></div><div class="robot"><i></i><i></i><b></b></div><div class="light-beam"></div><div class="art-label">01</div></div>
+            <div class="quest-content"><div class="quest-meta"><span>QUEST 02</span><span class="quest-status">3RD PLACE</span></div><h3>Light-Seeking Robot</h3><p>A robot built for the Tech Maze Arduino Competition that followed a path and rotated toward a light source.</p><div class="tag-row"><span>ARDUINO</span><span>HARDWARE</span><span>LOGIC</span></div><span class="quest-learn">✦ LEARNING: SENSORS, CIRCUITS & ITERATION</span></div>
+          </article>
+          <article class="quest quest-hackathon">
+            <div class="quest-art art-hackathon"><div class="terminal-symbol">&gt;_</div><div class="pixel-star"></div><div class="grid-floor"></div><div class="art-label">TX</div></div>
+            <div class="quest-content"><div class="quest-meta"><span>QUEST 03</span><span class="quest-status">TEAM MISSION</span></div><h3>Transpose Hackathon</h3><p>A fast-paced hackathon experience focused on thinking with a team, building under pressure and learning through doing.</p><div class="tag-row"><span>HACKATHON</span><span>TEAMWORK</span><span>BUILDING</span></div><span class="quest-learn">✦ LEARNING: COLLABORATION & RAPID PROTOTYPING</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="journey" class="journey section-shell reveal">
+        <div class="section-heading"><span class="section-index">04</span><div><p class="eyebrow">SAVE POINTS</p><h2>My Learning <em>Journey</em></h2></div></div>
+        <div class="timeline">
+          <div class="timeline-item current"><span class="timeline-dot"></span><div class="timeline-date">2023 — PRESENT</div><h3>Al Ain University</h3><p>BSc Software Engineering</p><small>Learning, building and leveling up one project at a time.</small></div>
+          <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">EARLIER CHAPTER</div><h3>St. Joseph's School</h3><p>Abu Dhabi</p><small>The starting point of the journey.</small></div>
+        </div>
+        <div class="badges-title"><span>✦</span> BADGES UNLOCKED</div>
+        <div class="badges">
+          <div class="badge"><span class="badge-icon">③</span><div><strong>TECH MAZE</strong><small>3rd Place · Arduino Competition</small></div></div>
+          <div class="badge"><span class="badge-icon">↗</span><div><strong>TRANSPOSE</strong><small>Hackathon participant</small></div></div>
+          <div class="badge"><span class="badge-icon">♡</span><div><strong>TEAM PLAYER</strong><small>EuroBasket Finals 2025 · 32 hours volunteering</small></div></div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section-shell reveal">
+        <div class="contact-character" aria-hidden="true"><div class="mini-hijab"></div><div class="mini-face"></div><div class="mini-body"></div><span>♡</span></div>
+        <div class="contact-copy"><p class="eyebrow">LEVEL COMPLETE?</p><h2>Made it this far?<br /><em>Let's connect!</em></h2><p>I'm always open to learning, building and meeting people who enjoy making cool things.</p></div>
+        <div class="contact-links"><a href="https://github.com/fishaq1104/ProfileKhulood" target="_blank" rel="noreferrer"><span>◈</span> GITHUB <b>↗</b></a><span class="contact-unavailable"><span>✉</span> EMAIL <b>ADD CV ADDRESS</b></span></div>
+        <p class="contact-note">Add the preferred email and LinkedIn URLs from your CV when ready.</p>
+      </section>
+    </main>
+    <footer><span>© 2025 KHULOOD AQEEL</span><span>MADE WITH <b>♡</b> & PIXELS</span><a href="#top">BACK TO TOP ↑</a></footer>
+    <button class="back-top" aria-label="Back to top">↑</button>
+    <div class="toast" role="status">Secret unlocked: keep thinking ✦</div>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
